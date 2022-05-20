@@ -1,0 +1,317 @@
+/* INICIO MEDIA QUERY */
+/* Inicio Media Query Smartphone */
+@media (max-width:768px) {
+    /* Inicio del Menú de Navegación Gral */
+    .flex-nav {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* Fin del Menú de Navegación Gral */
+
+    /* INICIO PAGES */
+    /* Inicio Page/Index */
+    .div-box {
+        background-color: $black-eyes;
+        height: 400px;
+    }
+    
+    .index-title {
+        color: $color-primary;
+        font-size: 4.5em;
+        text-align: center;
+        margin: 0;
+    }
+
+    .div-box p {
+        color: $color-letter;
+        text-align: center;
+        transform: translateY(80px);
+        font-size: 20px;
+    }
+
+    .div-box div {
+        transform: translateX(-140px);
+    }
+    /* Fin Page/Index */
+
+    /* Inicio Pages/about-us */
+    .div-box .div-about {
+        transform: translateX(0px);
+    }
+
+    .div-about {
+        text-align: center;
+    }
+    
+    .subtitle-about-us {
+        color: $color-letter;
+        transform: translateY(250px);
+        font-size: 24px;
+    }
+
+    .img-method {
+        display: block;
+        margin: 40px;
+        text-align: center;
+    }
+    
+    .p-side {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .img-mod {
+        box-shadow: 0px 0px 0px 0px $black-eyes;
+    }
+
+    .img-mod img {
+        width: 70%;
+    }
+    /* Fin Pages/about-us */
+
+    /* Inicio Pages/recipes */
+    .div-box .div-recipes {
+        transform: translateX(0px);
+    }
+
+    .subtitle-recipes {
+        color: $color-letter;
+        transform: translateY(250px);
+        font-size: 24px;
+    }
+    
+    /* .image {
+        width: 40%;
+        height: auto;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 230.4px;
+        right: 0;
+        height: auto;
+        width: 40%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #9696968a;
+    } */
+
+    .container-div{
+        width: 40%;
+        text-align: center;
+        margin: 40px 0 40px 0;
+        transform: translateX(235px);
+    }
+    .container-div figure{
+    position:relative;
+        cursor: pointer;
+        width: 100%;
+        overflow: hidden;
+    }
+    .container-div figure img {
+        width: 100%;
+        transition: all 400ms ease-out;
+        will-change: transform;
+    }
+    .container-div figure .overlay {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #9696968a;
+        transition: all 400ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+        text-align: center;
+    }
+    .container-div figure:hover > .overlay {
+        opacity: 1;
+        visibility: visible;
+    }
+    .container-div figure:hover > .overlay h3 {
+        margin-top: 105px;
+
+    }
+    .container-div figure:hover > img {
+        transform: scale(1.3);
+    }
+    .container-div figure .overlay h3 {
+        color: $color-letter;
+        font-weight: 400;
+        margin-bottom: 120px;
+        transition: all 400ms ease-out;
+    }
+    /* Fin Pages/recipes */
+
+    /* Inicio Pages/contact */
+    .div-box .div-contact {
+        transform: translateX(0px);
+    }
+
+    .subtitle-contact {
+        color: $color-letter;
+        transform: translateY(250px);
+        font-size: 24px;
+    } 
+    /* Fin Pages/contact */
+    /* FIN PAGES */
+}
+/* Fin Media Query Smartphone */
+
+/* Inicio Media Query Tablet */
+@media (min-width:769px) and (max-width:1023px) {
+    /* INICIO PAGES */
+    /* Inicio Page/Index */
+    .div-box {
+        background-color: $black-eyes;
+        height: 450px;
+    }
+
+    .index-title {
+        color: $color-primary;
+        font-size: 5em;
+        text-align: center;
+        margin: 0;
+    }
+
+    .div-box p {
+        color: $color-letter;
+        text-align: center;
+        transform: translateY(100px);
+        font-size: 22px;
+    }
+
+    .div-box div {
+        transform: translateX(-140px);
+    }
+    /* Fin Page/Index */
+
+    /* Inicio Pages/about-us */
+    .div-box .div-about {
+        transform: translateX(0px);
+    }
+
+    .div-about {
+        text-align: center;
+    }
+    
+    .subtitle-about-us {
+        color: $color-letter;
+        transform: translateY(250px);
+        font-size: 24px;
+    }
+    
+    .img-method {
+        display: block;
+        margin: 40px;
+        text-align: center;
+    }
+    
+    .p-side {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .img-mod {
+        box-shadow: 0px 0px 0px 0px $black-eyes;
+    }
+
+    .img-mod img {
+        width: 80%;
+    }
+    /* Fin Pages/about-us */
+
+    /* Inicio Pages/recipes */
+    .div-box .div-recipes {
+        transform: translateX(0px);
+    }
+
+    .subtitle-recipes {
+        color: $color-letter;
+        transform: translateY(250px);
+        font-size: 24px;
+    }
+
+    /* .image {
+        width: 50%;
+        height: auto;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 230.4px;
+        right: 0;
+        height: auto;
+        width: 50%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #9696968a;
+    } */
+
+    .container-div{
+        width: 50%;
+        text-align: center;
+        margin: 40px 0 40px 0;
+        transform: translateX(200px);
+    }
+    .container-div figure{
+    position:relative;
+        cursor: pointer;
+        width: 100%;
+        overflow: hidden;
+    }
+    .container-div figure img {
+        width: 100%;
+        transition: all 400ms ease-out;
+        will-change: transform;
+    }
+    .container-div figure .overlay {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #9696968a;
+        transition: all 400ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+        text-align: center;
+    }
+    .container-div figure:hover > .overlay {
+        opacity: 1;
+        visibility: visible;
+    }
+    .container-div figure:hover > .overlay h3 {
+        margin-top: 135px;
+    }
+    .container-div figure:hover > img {
+        transform: scale(1.3);
+    }
+    .container-div figure .overlay h3 {
+        color: $color-letter;
+        font-weight: 400;
+        margin-bottom: 120px;
+        transition: all 400ms ease-out;
+    }
+    /* Fin Pages/recipes */
+
+    /* Inicio Pages/contact */
+    .div-box .div-contact {
+        transform: translateX(0px);
+    }
+
+    .subtitle-contact {
+        color: $color-letter;
+        transform: translateY(250px);
+        font-size: 24px;
+    } 
+    /* Fin Pages/contact */
+    /* FIN PAGES */
+}
+/* Fin Media Query Tablet */
+/* FIN MEDIA QUERY */

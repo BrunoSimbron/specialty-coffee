@@ -1,0 +1,75 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* INICIO ESTRUCTURAS GENERALES */
+/* Inicio del Body Gral */
+body {
+    background-color: $color-background;
+}
+/* Fin del Body Gral */
+
+/* Inicio del Header Gral */
+header {
+    background-color: $color-header;
+    padding: 3px;
+    height: 30px;
+}
+
+header p {
+    text-align: center;
+}
+/* Fin del Header Gral */
+
+/* Inicio del Menú de Navegación Gral */
+nav {
+    background-color: $black-eyes;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 35px;
+    border-bottom: 3px solid $black-eyes;
+}
+
+li:hover {
+    background-color: rgba(128, 122, 122, 0.288);
+    border-bottom: 3px solid $color-primary;
+}
+
+li:active {
+    border-bottom: 3px solid $color-secundary;
+}
+
+a {
+    text-decoration: none;
+    color: $color-letter;
+}  
+
+a:hover {
+    color: $color-primary;
+}
+
+a:active {
+    color: $color-secundary;
+}
+/* Final del Menú de Navegación Gral */
+
+/* Inicio del Footer Gral */
+footer {
+    background-color: $black-eyes;
+    height: 350px;
+}
+
+footer p {
+    color: $color-primary;
+    text-align: center;
+}
+/* Fin del Footer Gral */
+/* FIN ESTRUCTURAS GENERALES */
